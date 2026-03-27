@@ -11,7 +11,6 @@ import Footer from "./components/Footer/Footer";
 import BlurBlob from "./BlurBlob";
 
 
-
 const App = () => {
   return (
     <div className="bg-[#050414]">

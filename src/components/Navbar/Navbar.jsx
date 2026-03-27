@@ -22,10 +22,18 @@ const Navbar = () => {
   }, []);
 
   //Smooth scroll to section
-  const handleMenuItemClick = (sectionId) => {
-    setActiveSection(sectionId);
-    setIsOpen(false);
+const handleMenuItemClick = (sectionId) => {
+  setActiveSection(sectionId);
+  setIsOpen(false);
+
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   }
+};
 
   const menuItems = [
     {id: "about", label: "About" },

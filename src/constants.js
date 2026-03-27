@@ -135,7 +135,7 @@ export const SkillsInfo = [
       image: airbnbLogo,
       tags: ["CSS", "JavaScript", "EJS", "API"],
       github: "https://github.com/shrawanweb/Wanderlust",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      webapp: "",
     },
     {
       id: 1,

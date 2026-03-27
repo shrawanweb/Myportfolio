@@ -3,12 +3,12 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react
 
 const Footer = () => {
   // Smooth scroll function
-  const handleScroll = (sectionId) => {
+  function handleScroll(sectionId) {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-  };
+  }
 
   return (
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
@@ -59,7 +59,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Shrawan Kumar. All rights reserved.
+          © 2026 Shrawan Kumar. All rights reserved.
         </p>
       </div>
     </footer>
