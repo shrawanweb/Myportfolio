@@ -126,13 +126,13 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Air bnb Clone",
+      title: "Airbnb Clone",
       description:
         "Wanderlust is a full-stack vacation rental web application built using Node.js, Express.js, and MongoDB. It enables users to explore, create, and manage property listings with full CRUD functionality. The application uses RESTful APIs, EJS for dynamic server-side rendering, and Joi for input validation. It also implements category-based filtering, responsive UI design, and efficient data relationships using Mongoose populate, ensuring a smooth and scalable user experience.",
       image: airbnbLogo,
       tags: ["CSS", "JavaScript", "EJS", "API"],
       github: "https://github.com/shrawanweb/Wanderlust",
-      webapp: "",
+      webapp: "https://wanderlust-1-xlz2.onrender.com/listings",
     },
     {
       id: 1,
